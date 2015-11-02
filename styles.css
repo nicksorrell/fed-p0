@@ -1,0 +1,165 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.content {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+
+/* HEADING */
+
+.header-content {
+  height: 100%;
+}
+
+header {
+  height: 25vw;
+  max-height: 150px;
+  width: 100%;
+  color: #555;
+}
+
+.udacity-logo {
+  max-height: 100%;
+  width: 20%;
+  float: left;
+}
+
+h1 {
+  float: left;
+  padding-top: 5%;
+  width: 80%;
+  font-weight: normal;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 380px) {
+  h1 {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 464px) and (min-width: 381px) {
+  h1 {
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 465px) {
+  h1 {
+    font-size: 36px;
+  }
+}
+
+@media screen and (min-width: 550px) {
+  .header-content {
+    padding-top: 15px;
+  }
+}
+
+@media screen and (max-width: 549px) {
+  .header-content {
+    padding-top: 5px;
+  }
+}
+
+
+/* MAIN SECTIONS */
+
+.hero {
+  padding: 1em;
+  max-width: 100%;
+  background: #85cfdd;
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzg1Y2ZkZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwNTc5YzYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(top,  #85cfdd 0%, #0579c6 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#85cfdd), color-stop(100%,#0579c6));
+  background: -webkit-linear-gradient(top,  #85cfdd 0%,#0579c6 100%);
+  background: -o-linear-gradient(top,  #85cfdd 0%,#0579c6 100%);
+  background: -ms-linear-gradient(top,  #85cfdd 0%,#0579c6 100%);
+  background: linear-gradient(to bottom,  #85cfdd 0%,#0579c6 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#85cfdd', endColorstr='#0579c6',GradientType=0 );
+  color: white;
+  margin-bottom: 2em;
+}
+
+.my-picture {
+  display: block;
+  margin: 0 auto 10px;
+  max-width: 100%;
+  border: 5px solid white;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px #333;
+}
+
+.iama {
+  max-width: 100%;
+  color: #969696;
+  letter-spacing: 0.05em;
+  font-size: 20px;
+  margin: 0 0 1em 0;
+  font-style: italic;
+}
+
+.hero .iama {
+  color: #2E495A;
+}
+
+.hero .my-info {
+  text-align: center;
+  color: #B8D3D8;
+}
+
+.hero .my-name.my-info {
+  color: #fff;
+}
+
+.my-info {
+  max-width: 100%;
+  font-size: 22px;
+  margin: 0 auto 20px;
+}
+
+.my-info:last-of-type {
+  margin: 0;
+}
+
+.about-me .my-info {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.my-name {
+  color: white;
+  font-weight: bold;
+  font-size: 60px;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.about-me {
+  padding: 1em;
+}
+
+/* FOOTING */
+
+footer p {
+  text-align: center;
+  width: 15%;
+  margin: 0 auto;
+  padding-top: 1em;
+  border-top: 1px solid #ddd;
+  color: #aaa;
+}
+
+footer {
+  padding-bottom: 2em;
+}
